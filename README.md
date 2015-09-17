@@ -17,7 +17,7 @@ This makes your arquillian tests execution more robust in dev and CI environment
 
 - Container agnostic:
 While some container adapters already support this feature through special port values such as "0" or "-1", it is not the case for all
-container adapters such as the tomcat for example.
+container adapters such as the tomcat one for example.
 
 - Test framework agnostic:
 While some other solutions such as custom Junit runners, Maven plugins (build-helper) can provide a similar feature,
