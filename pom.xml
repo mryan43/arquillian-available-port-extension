@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.mryan43</groupId>
 	<artifactId>arquillian-available-port-extension</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>arquillian-available-port-extension</name>
 	<description>An arquillian extension to reserve an available network port for running containers</description>
-	<url>http://github.com/m-ryan/arquillian-available-port-extension</url>
+	<url>http://github.com/mryan43/arquillian-available-port-extension</url>
 	<licenses/>
 	<scm>
 		<url>http://github.com/mryan43/arquillian-available-port-extension.git</url>
@@ -21,8 +21,8 @@
 	</developers>
 
 	<prerequisites>
-       <maven>3.0.4</maven>
- 	</prerequisites>
+		<maven>3.0.4</maven>
+	</prerequisites>
 
 	<properties>
 		<maven.compile.source>1.6</maven.compile.source>
