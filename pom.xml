@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.mryan43</groupId>
 	<artifactId>arquillian-available-port-extension</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>arquillian-available-port-extension</name>
 	<description>An arquillian extension to reserve an available network port for running containers</description>
