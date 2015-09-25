@@ -8,7 +8,7 @@ The system property is only present while the configuration is parsed, and any p
 User Guide
 ----------
 Simply add the extension jar to your test classpath and use ${available.port} in your arquillian.xml
-
+You can find the artifact in maven central : http://search.maven.org/#search|ga|1|a%3A%22arquillian-available-port-extension%22
 
 Why use this ?
 --------------
