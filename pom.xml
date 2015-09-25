@@ -1,19 +1,25 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.mryan43</groupId>
 	<artifactId>arquillian-available-port-extension</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 	<name>arquillian-available-port-extension</name>
 	<description>An arquillian extension to reserve an available network port for running containers</description>
 	<url>http://github.com/mryan43/arquillian-available-port-extension</url>
-	<licenses/>
+	<licenses>
+		<license>
+			<name>Apache License 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
 	<scm>
 		<url>http://github.com/mryan43/arquillian-available-port-extension.git</url>
 		<connection>scm:git:http://github.com/mryan43/arquillian-available-port-extension.git</connection>
 		<developerConnection>scm:git:http://github.com/mryan43/arquillian-available-port-extension.git</developerConnection>
-	</scm>
+	  <tag>arquillian-available-port-extension-1.0.1</tag>
+  </scm>
 	<developers>
 		<developer>
 			<name>Manuel Ryan</name>
