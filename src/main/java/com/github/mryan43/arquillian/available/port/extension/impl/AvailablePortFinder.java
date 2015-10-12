@@ -53,7 +53,7 @@ public class AvailablePortFinder {
 				}
 			}
 		} catch (SocketException e){
-			// Failed to list all network addresses, we fallback and try to bind on the default port
+			// Failed to list all network addresses, we fallback and try to bind on the default address
 			for (int port = MIN_PORT_NUMBER; port <= MAX_PORT_NUMBER; port++) {
 				try {
 					ServerSocket serverSocket = new ServerSocket(port);
