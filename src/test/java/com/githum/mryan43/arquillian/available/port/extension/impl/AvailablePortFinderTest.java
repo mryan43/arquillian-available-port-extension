@@ -10,9 +10,6 @@ import org.junit.Test;
 import com.github.mryan43.arquillian.available.port.extension.impl.AvailablePortFinder;
 
 import java.io.IOException;
-import java.net.InetAddress;
-import java.net.ServerSocket;
-import java.net.UnknownHostException;
 
 public class AvailablePortFinderTest {
 
